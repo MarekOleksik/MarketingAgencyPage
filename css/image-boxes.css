@@ -14,7 +14,7 @@
     }
 }
 
-.image-boxes__item:first-child {
+.image-boxes__item:hover {
     background-color: #fb414e;
 }
 

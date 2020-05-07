@@ -87,6 +87,12 @@
     width: 100%;
 }
 
+@media (max-width: 767px) {
+    .contact-content__field-flex {
+        display: unset;
+    }
+}
+
 .contact-content__input {
     position: relative;
     overflow: visible;

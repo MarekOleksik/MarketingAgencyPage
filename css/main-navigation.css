@@ -9,7 +9,7 @@
 
 }
 
-@media (max-width: 805px) {
+@media (max-width: 991px) {
     .main-navigation {
         position: relative;
         top: 0;
@@ -98,12 +98,9 @@
 
 @media (max-width: 991px) {
     .main-navigation__menu-item {
-        display: flex;
         margin: 0;
-        padding-left: 50px;
         border-bottom: 1px solid rgba(0,0,0,.15);
         height: 60px;
-        align-items: center;
     }
 }
 
@@ -130,12 +127,15 @@
         font-size: 18px;
         color: rgba(0,0,0,.85);
         text-align: left;
+        display: block;
+        padding-top: 10px;
+        padding-left: 50px;
+        height: 100%;
     }
 }
 
 @media (max-width: 991px) {
     .main-navigation__link-back {
-        text-align: center;
         font-size: 18px;
         font-weight: bold;
         color: rgba(0,0,0,.85);

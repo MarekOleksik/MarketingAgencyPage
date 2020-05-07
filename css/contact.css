@@ -20,9 +20,14 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        width: 80%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .contact-content {
         width: 100%;
     }
-
 }
 
 .contact-content__text {

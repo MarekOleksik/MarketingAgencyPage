@@ -12,13 +12,12 @@
 @media(max-width: 991px) {
     .main-banner {
         height: 600px;
+        
     }
 }
 
 .main-banner__header {
     width: 50%;
-    align-items: center;
-    justify-content: center;
 }
 
 @media(max-width: 991px) {
